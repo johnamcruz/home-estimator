@@ -1,1 +1,2 @@
-# home-estimator
+# Home Estimator app
+
