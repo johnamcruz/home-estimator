@@ -4,6 +4,9 @@
     "" : {
 
     },
+    "%@" : {
+
+    },
     "%lld" : {
 
     },
@@ -24,7 +27,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Feed"
+            "value" : "My Homes"
           }
         }
       }
@@ -39,6 +42,15 @@
           }
         }
       }
+    },
+    "Home 1" : {
+
+    },
+    "Home 2" : {
+
+    },
+    "Home 3" : {
+
     },
     "home-value-description-key" : {
       "extractionState" : "manual",
@@ -72,9 +84,6 @@
           }
         }
       }
-    },
-    "KM/H" : {
-
     },
     "profile-key" : {
       "extractionState" : "manual",

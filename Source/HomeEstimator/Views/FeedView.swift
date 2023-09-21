@@ -10,23 +10,43 @@ import SwiftUI
 struct FeedView: View {
     var body: some View {
         NavigationStack {
-            VStack {
-                Text(LocalizedStringKey(Localization.homedesc))
-                TextField("",
-                          text: .constant(""))
-                .textFieldStyle(.roundedBorder)
-                .padding()
-                
+            List {
                 NavigationLink {
                     ResultsView()
                 } label: {
-                    Text(LocalizedStringKey(Localization.go))
+                    Label(
+                        title: { Text("Home 1") },
+                        icon: { Image(systemName: Images.house) }
+                    )
                 }
-                .buttonStyle(.borderedProminent)
-                .tint(.accentColor)
-                Spacer()
+                NavigationLink {
+                    ResultsView()
+                } label: {
+                    Label(
+                        title: { Text("Home 2") },
+                        icon: { Image(systemName: Images.house) }
+                    )
+                }
+                NavigationLink {
+                    ResultsView()
+                } label: {
+                    Label(
+                        title: { Text("Home 3") },
+                        icon: { Image(systemName: Images.house) }
+                    )
+                }
             }
-            .navigationTitle(LocalizedStringKey(Localization.homevalue))
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    NavigationLink {
+                        ResultsView()
+                    } label: {
+                        Image(systemName: Images.plus)
+                    }
+                }
+            }
+            .listStyle(.plain)
+            .navigationTitle(LocalizedStringKey(Localization.feed))
         }
     }
 }

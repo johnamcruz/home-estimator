@@ -21,6 +21,7 @@
 		6B2C73842ABBF1160090FA74 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C73832ABBF1160090FA74 /* ProfileView.swift */; };
 		6B2C73862ABC25470090FA74 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C73852ABC25470090FA74 /* ResultsView.swift */; };
 		6B2C738A2ABC291D0090FA74 /* SpeedometerGaugeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C73892ABC291D0090FA74 /* SpeedometerGaugeStyle.swift */; };
+		6B2C738C2ABC383E0090FA74 /* AddHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C738B2ABC383E0090FA74 /* AddHomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		6B2C73832ABBF1160090FA74 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		6B2C73852ABC25470090FA74 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 		6B2C73892ABC291D0090FA74 /* SpeedometerGaugeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerGaugeStyle.swift; sourceTree = "<group>"; };
+		6B2C738B2ABC383E0090FA74 /* AddHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				6B2C734C2AB99F9C0090FA74 /* MainView.swift */,
 				6B2C73832ABBF1160090FA74 /* ProfileView.swift */,
 				6B2C73852ABC25470090FA74 /* ResultsView.swift */,
+				6B2C738B2ABC383E0090FA74 /* AddHomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				6B2C737A2ABBE7EB0090FA74 /* FeedView.swift in Sources */,
 				6B2C734D2AB99F9C0090FA74 /* MainView.swift in Sources */,
 				6B2C73822ABBECA40090FA74 /* Localization.swift in Sources */,
+				6B2C738C2ABC383E0090FA74 /* AddHomeView.swift in Sources */,
 				6B2C73802ABBEC5B0090FA74 /* Images.swift in Sources */,
 				6B2C73862ABC25470090FA74 /* ResultsView.swift in Sources */,
 				6B2C738A2ABC291D0090FA74 /* SpeedometerGaugeStyle.swift in Sources */,
