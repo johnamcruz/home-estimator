@@ -15,4 +15,5 @@ enum Localization {
     static let go = "go-key"
     static let homevalue = "home-value-key"
     static let homedesc = "home-value-description-key"
+    static let homeresultvalue = "home-value-result-key"
 }

@@ -17,8 +17,10 @@ struct FeedView: View {
                 .textFieldStyle(.roundedBorder)
                 .padding()
                 
-                Button(LocalizedStringKey(Localization.go)) {
-                    
+                NavigationLink {
+                    ResultsView()
+                } label: {
+                    Text(LocalizedStringKey(Localization.go))
                 }
                 .buttonStyle(.borderedProminent)
                 .tint(.accentColor)

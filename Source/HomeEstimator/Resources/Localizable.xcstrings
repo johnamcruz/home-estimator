@@ -4,6 +4,9 @@
     "" : {
 
     },
+    "%lld" : {
+
+    },
     "about-me-key" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -55,6 +58,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Home's Value"
+          }
+        }
+      }
+    },
+    "home-value-result-key" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You home value:"
           }
         }
       }

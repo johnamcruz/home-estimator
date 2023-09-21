@@ -19,6 +19,7 @@
 		6B2C73802ABBEC5B0090FA74 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C737F2ABBEC5B0090FA74 /* Images.swift */; };
 		6B2C73822ABBECA40090FA74 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C73812ABBECA40090FA74 /* Localization.swift */; };
 		6B2C73842ABBF1160090FA74 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C73832ABBF1160090FA74 /* ProfileView.swift */; };
+		6B2C73862ABC25470090FA74 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C73852ABC25470090FA74 /* ResultsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		6B2C737F2ABBEC5B0090FA74 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		6B2C73812ABBECA40090FA74 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 		6B2C73832ABBF1160090FA74 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6B2C73852ABC25470090FA74 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				6B2C737E2ABBEC470090FA74 /* Constants */,
 				6B2C73512AB99F9D0090FA74 /* Preview Content */,
 				6B2C737D2ABBE8C50090FA74 /* Resources */,
+				6B2C73872ABC25A00090FA74 /* Services */,
 				6B2C73762ABBE67B0090FA74 /* ViewModels */,
 				6B2C73752ABBE6750090FA74 /* Views */,
 			);
@@ -144,9 +147,10 @@
 		6B2C73752ABBE6750090FA74 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6B2C73832ABBF1160090FA74 /* ProfileView.swift */,
 				6B2C73792ABBE7EB0090FA74 /* FeedView.swift */,
 				6B2C734C2AB99F9C0090FA74 /* MainView.swift */,
+				6B2C73832ABBF1160090FA74 /* ProfileView.swift */,
+				6B2C73852ABC25470090FA74 /* ResultsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +178,13 @@
 				6B2C73812ABBECA40090FA74 /* Localization.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		6B2C73872ABC25A00090FA74 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +322,7 @@
 				6B2C734D2AB99F9C0090FA74 /* MainView.swift in Sources */,
 				6B2C73822ABBECA40090FA74 /* Localization.swift in Sources */,
 				6B2C73802ABBEC5B0090FA74 /* Images.swift in Sources */,
+				6B2C73862ABC25470090FA74 /* ResultsView.swift in Sources */,
 				6B2C73842ABBF1160090FA74 /* ProfileView.swift in Sources */,
 				6B2C734B2AB99F9C0090FA74 /* HomeEstimatorApp.swift in Sources */,
 			);
