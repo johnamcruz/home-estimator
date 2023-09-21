@@ -73,6 +73,9 @@
         }
       }
     },
+    "KM/H" : {
+
+    },
     "profile-key" : {
       "extractionState" : "manual",
       "localizations" : {
