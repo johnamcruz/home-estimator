@@ -10,4 +10,6 @@ import Foundation
 enum Localization {
     static let feed = "Feed"
     static let profile = "Profile"
+    static let aboutme = "About Me"
+    static let reviews = "Reviews"
 }
