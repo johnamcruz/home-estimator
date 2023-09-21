@@ -23,6 +23,7 @@ struct ProfileView: View {
                     }
                     .buttonStyle(.bordered)
                     .frame(width: 100)
+                    .tint(.accentColor)
                     Button(LocalizedStringKey(Localization.reviews)) {
                         
                     }

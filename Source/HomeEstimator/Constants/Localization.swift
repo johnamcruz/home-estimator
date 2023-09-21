@@ -8,8 +8,11 @@
 import Foundation
 
 enum Localization {
-    static let feed = "Feed"
-    static let profile = "Profile"
-    static let aboutme = "About Me"
-    static let reviews = "Reviews"
+    static let feed = "feed-key"
+    static let profile = "profile-key"
+    static let aboutme = "about-me-key"
+    static let reviews = "reviews-key"
+    static let go = "go-key"
+    static let homevalue = "home-value-key"
+    static let homedesc = "home-value-description-key"
 }

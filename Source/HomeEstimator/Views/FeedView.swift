@@ -11,9 +11,20 @@ struct FeedView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("Hello world")
+                Text(LocalizedStringKey(Localization.homedesc))
+                TextField("",
+                          text: .constant(""))
+                .textFieldStyle(.roundedBorder)
+                .padding()
+                
+                Button(LocalizedStringKey(Localization.go)) {
+                    
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(.accentColor)
+                Spacer()
             }
-            .navigationTitle(LocalizedStringKey(Localization.feed))
+            .navigationTitle(LocalizedStringKey(Localization.homevalue))
         }
     }
 }
