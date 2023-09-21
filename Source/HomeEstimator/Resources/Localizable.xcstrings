@@ -1,0 +1,15 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Feed" : {
+      "extractionState" : "manual"
+    },
+    "Hello, World!" : {
+
+    },
+    "Profile" : {
+      "extractionState" : "manual"
+    }
+  },
+  "version" : "1.0"
+}
