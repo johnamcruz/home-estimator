@@ -12,12 +12,13 @@ struct MainView: View {
         TabView {
             FeedView()
                 .tabItem {
-                    Label(LocalizedStringKey("Feed"), 
-                          systemImage: "list.bullet")
+                    Label(LocalizedStringKey(Localization.feed),
+                          systemImage: Images.feed)
                 }
             ProfileView()
                 .tabItem {
-                    Label(LocalizedStringKey("Profile"), systemImage: "person.fill")
+                    Label(LocalizedStringKey(Localization.profile), 
+                          systemImage: Images.profile)
                 }
         }
     }
