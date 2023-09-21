@@ -21,6 +21,7 @@ struct MainView: View {
                           systemImage: Images.profile)
                 }
         }
+        .tint(.accentColor)
     }
 }
 

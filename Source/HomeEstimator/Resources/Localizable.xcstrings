@@ -4,11 +4,14 @@
     "Feed" : {
       "extractionState" : "manual"
     },
-    "Hello, World!" : {
+    "Hello world" : {
 
     },
     "Profile" : {
       "extractionState" : "manual"
+    },
+    "User name" : {
+
     }
   },
   "version" : "1.0"
