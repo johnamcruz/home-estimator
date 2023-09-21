@@ -13,17 +13,19 @@ struct ResultsView: View {
     @State private var maxValue = 1000000.0
     
     var body: some View {
-        Gauge(value: homeValue, in: minValue...maxValue) {
-            Text(LocalizedStringKey(Localization.homeresultvalue))
-        } currentValueLabel: {
-            Text("\(Int(homeValue))")
-        } minimumValueLabel: {
-            Text("\(Int(minValue))")
-        } maximumValueLabel: {
-            Text("\(Int(maxValue))")
+        VStack {
+            Gauge(value: homeValue, in: minValue...maxValue) {
+                Text(LocalizedStringKey(Localization.homeresultvalue))
+            } currentValueLabel: {
+                Text("\(Int(homeValue).formatted(.currency(code: "USD")))")
+            } minimumValueLabel: {
+                Text("\(Int(minValue))")
+            } maximumValueLabel: {
+                Text("\(Int(maxValue))")
+            }
+            .gaugeStyle(SpeedometerGaugeStyle())
+            .aspectRatio(contentMode: .fit)
         }
-        .gaugeStyle(SpeedometerGaugeStyle())
-        .aspectRatio(contentMode: .fit)
     }
 }
 

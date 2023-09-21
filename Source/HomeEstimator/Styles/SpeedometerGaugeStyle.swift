@@ -28,11 +28,7 @@ struct SpeedometerGaugeStyle: GaugeStyle {
  
             VStack {
                 configuration.currentValueLabel
-                    .font(.system(size: 80, weight: .bold, design: .rounded))
-                    .foregroundColor(.gray)
-                Text("KM/H")
-                    .font(.system(.body, design: .rounded))
-                    .bold()
+                    .font(.system(size: 30, weight: .bold, design: .rounded))
                     .foregroundColor(.gray)
             }
  
