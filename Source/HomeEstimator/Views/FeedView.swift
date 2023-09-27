@@ -37,7 +37,7 @@ struct FeedView: View {
                 }
             }
             .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
+                ToolbarItem(placement: .automatic) {
                     NavigationLink {
                         ResultsView()
                     } label: {

@@ -14,7 +14,7 @@ struct SpeedometerGaugeStyle: GaugeStyle {
         ZStack {
  
             Circle()
-                .foregroundColor(Color(.systemGray6))
+                .foregroundColor(Color(.gray))
  
             Circle()
                 .trim(from: 0, to: 0.75 * configuration.value)
