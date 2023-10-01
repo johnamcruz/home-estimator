@@ -39,7 +39,11 @@ struct FeedView: View {
             .toolbar {
                 ToolbarItem(placement: .automatic) {
                     NavigationLink {
-                        AddHomeView()
+                        AddHomeView(viewModel: .init(numberOfRooms: 0,
+                                                     numberOfBathrooms: 0,
+                                                     squareFootage: 1000,
+                                                     exteriorCondition: .average,
+                                                     interiorCondition: .average))
                     } label: {
                         Image(systemName: Images.plus)
                     }

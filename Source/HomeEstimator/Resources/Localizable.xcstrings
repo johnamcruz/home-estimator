@@ -10,6 +10,12 @@
     "%lld" : {
 
     },
+    "%lld Bathrooms" : {
+
+    },
+    "%lld Bedrooms" : {
+
+    },
     "about-me-key" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -20,6 +26,9 @@
           }
         }
       }
+    },
+    "Exterior Condition" : {
+
     },
     "feed-key" : {
       "extractionState" : "manual",
@@ -85,6 +94,9 @@
         }
       }
     },
+    "Interior Condition" : {
+
+    },
     "profile-key" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -95,6 +107,9 @@
           }
         }
       }
+    },
+    "Property Details" : {
+
     },
     "reviews-key" : {
       "extractionState" : "manual",

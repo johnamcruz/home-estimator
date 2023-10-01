@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B0D7E682AC939E1001A94FD /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0D7E672AC939E1001A94FD /* HomeModel.swift */; };
+		6B0D7E682AC939E1001A94FD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0D7E672AC939E1001A94FD /* HomeViewModel.swift */; };
 		6B2C734B2AB99F9C0090FA74 /* HomeEstimatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C734A2AB99F9C0090FA74 /* HomeEstimatorApp.swift */; };
 		6B2C734D2AB99F9C0090FA74 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C734C2AB99F9C0090FA74 /* MainView.swift */; };
 		6B2C734F2AB99F9D0090FA74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C734E2AB99F9D0090FA74 /* Assets.xcassets */; };
@@ -43,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6B0D7E672AC939E1001A94FD /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		6B0D7E672AC939E1001A94FD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		6B2C73472AB99F9C0090FA74 /* HomeEstimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeEstimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2C734A2AB99F9C0090FA74 /* HomeEstimatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEstimatorApp.swift; sourceTree = "<group>"; };
 		6B2C734C2AB99F9C0090FA74 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 		6B2C73762ABBE67B0090FA74 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				6B0D7E672AC939E1001A94FD /* HomeModel.swift */,
+				6B0D7E672AC939E1001A94FD /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -343,7 +343,7 @@
 				6B2C73862ABC25470090FA74 /* HomeDetailsView.swift in Sources */,
 				6B2C738A2ABC291D0090FA74 /* SpeedometerGaugeStyle.swift in Sources */,
 				6B2C73842ABBF1160090FA74 /* ProfileView.swift in Sources */,
-				6B0D7E682AC939E1001A94FD /* HomeModel.swift in Sources */,
+				6B0D7E682AC939E1001A94FD /* HomeViewModel.swift in Sources */,
 				6B2C734B2AB99F9C0090FA74 /* HomeEstimatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
