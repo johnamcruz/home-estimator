@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct FeedView: View {
+    @State var showPopup: Bool = false
+    
     var body: some View {
         NavigationStack {
             List {
@@ -38,20 +40,23 @@ struct FeedView: View {
             }
             .toolbar {
                 ToolbarItem(placement: .automatic) {
-                    NavigationLink {
-                        AddHomeView(viewModel: .init(address: "", 
-                                                     numberOfRooms: 0,
-                                                     numberOfBathrooms: 0,
-                                                     squareFootage: 1000,
-                                                     exteriorCondition: .average,
-                                                     interiorCondition: .average))
-                    } label: {
+                    Button(action: {
+                        showPopup.toggle()
+                    }, label: {
                         Image(systemName: Images.plus)
-                    }
+                    })
                 }
             }
             .listStyle(.plain)
             .navigationTitle(LocalizedStringKey(Localization.feed))
+            .popover(isPresented: $showPopup) {
+                AddHomeView(viewModel: .init(address: "",
+                                             numberOfRooms: 0,
+                                             numberOfBathrooms: 0,
+                                             squareFootage: 1000,
+                                             exteriorCondition: .average,
+                                             interiorCondition: .average))
+            }
         }
     }
 }
