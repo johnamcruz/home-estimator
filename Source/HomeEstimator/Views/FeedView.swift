@@ -39,7 +39,8 @@ struct FeedView: View {
             .toolbar {
                 ToolbarItem(placement: .automatic) {
                     NavigationLink {
-                        AddHomeView(viewModel: .init(numberOfRooms: 0,
+                        AddHomeView(viewModel: .init(address: "", 
+                                                     numberOfRooms: 0,
                                                      numberOfBathrooms: 0,
                                                      squareFootage: 1000,
                                                      exteriorCondition: .average,

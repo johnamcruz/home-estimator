@@ -25,6 +25,7 @@ enum HomeCondition: String, CaseIterable {
 }
 
 struct HomeViewModel {
+    var address: String
     var numberOfRooms: Int
     var numberOfBathrooms: Int
     var squareFootage: Double

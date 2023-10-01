@@ -18,7 +18,8 @@ struct AddHomeView: View {
                     VStack {
                         Text(LocalizedStringKey(Localization.homedesc))
                         TextField("",
-                                  text: .constant(""))
+                                  text: $viewModel.address,
+                                  prompt: Text("Enter Address"))
                         .textFieldStyle(.roundedBorder)
                         .padding()
                         Button(LocalizedStringKey(Localization.go)) {
@@ -59,7 +60,10 @@ struct AddHomeView: View {
 }
 
 #Preview {
-    AddHomeView(viewModel: .init(numberOfRooms: 1, numberOfBathrooms: 1, squareFootage: 1000,
+    AddHomeView(viewModel: .init(address: "",
+                                 numberOfRooms: 1,
+                                 numberOfBathrooms: 1,
+                                 squareFootage: 1000,
                                  exteriorCondition: .average,
                                  interiorCondition: .average))
 }
