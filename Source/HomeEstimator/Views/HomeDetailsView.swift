@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ResultsView: View {
+struct HomeDetailsView: View {
     @State var homeValue = 100000.0
     @State private var minValue = 0.0
     @State private var maxValue = 1000000.0
@@ -30,5 +30,5 @@ struct ResultsView: View {
 }
 
 #Preview {
-    ResultsView()
+    HomeDetailsView()
 }

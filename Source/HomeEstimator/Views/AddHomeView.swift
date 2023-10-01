@@ -16,15 +16,6 @@ struct AddHomeView: View {
                           text: .constant(""))
                 .textFieldStyle(.roundedBorder)
                 .padding()
-                
-                NavigationLink {
-                    ResultsView()
-                        .toolbarRole(.editor)
-                } label: {
-                    Text(LocalizedStringKey(Localization.go))
-                }
-                .buttonStyle(.borderedProminent)
-                .tint(.accentColor)
                 Spacer()
             }
             .navigationTitle(LocalizedStringKey(Localization.homevalue))

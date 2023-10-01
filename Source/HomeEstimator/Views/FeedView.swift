@@ -12,7 +12,7 @@ struct FeedView: View {
         NavigationStack {
             List {
                 NavigationLink {
-                    ResultsView()
+                    HomeDetailsView()
                 } label: {
                     Label(
                         title: { Text("Home 1") },
@@ -20,7 +20,7 @@ struct FeedView: View {
                     )
                 }
                 NavigationLink {
-                    ResultsView()
+                    HomeDetailsView()
                 } label: {
                     Label(
                         title: { Text("Home 2") },
@@ -28,7 +28,7 @@ struct FeedView: View {
                     )
                 }
                 NavigationLink {
-                    ResultsView()
+                    HomeDetailsView()
                 } label: {
                     Label(
                         title: { Text("Home 3") },
@@ -39,7 +39,7 @@ struct FeedView: View {
             .toolbar {
                 ToolbarItem(placement: .automatic) {
                     NavigationLink {
-                        ResultsView()
+                        AddHomeView()
                     } label: {
                         Image(systemName: Images.plus)
                     }
